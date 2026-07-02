@@ -270,7 +270,7 @@ _____________________ */
   .stars {
     padding: var(--space-1) 0px;
     font-size: var(--fs-xs);
-    color: gold;
+    color: rgb(253, 217, 16);
   }
   .sub-para{
     font-size: var(--fs-xs);
