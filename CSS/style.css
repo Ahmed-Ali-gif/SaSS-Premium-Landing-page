@@ -393,3 +393,90 @@ article{
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
 }
+/* Pricing section */
+.price-section--box{
+ display: flex;
+ align-items: center;
+ gap: var(--grid-gap);
+}
+.price-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: var(--grid-gap);
+  margin: var(--space-6) 0px;
+}
+.price-box{
+  padding: var(--card-padding);
+  box-shadow: var(--shadow-xl);
+  border-radius: var(--radius-md);
+  -webkit-border-radius: var(--radius-md);
+  -moz-border-radius: var(--radius-md);
+  -ms-border-radius: var(--radius-md);
+  -o-border-radius: var(--radius-md);
+}
+.price-heading{
+  font-size: var(--fs-md);
+}
+.price-para{
+  --space-1: 0.4rem;
+  font-size: var(--fs-xs);
+  color: var(--clr-muted);
+  padding: var(--space-1) 0px;
+}
+.pricing{
+  font-size: var(--fs-md);
+  font-weight: var(--fw-bold);
+}
+.sub{
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-medium);
+}
+.list-content{
+  --space-1: 0.3rem;
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-bold);
+  padding: var(--space-1) 0px;
+}
+.pricing-icon{
+  font-size: var(--fs-xs);
+  color: var(--clr-primary);
+  padding-right: var(--space-1);
+}
+.pricing-btn{
+  margin-top: var(--space-1);
+  padding: var(--button-padding-y) var(--button-padding-x);
+  font-size: var(--fs-xs);
+  border: 1px solid black;
+  font-weight: var(--fw-bold);
+  border-radius: var(--radius-xs);
+  -webkit-border-radius: var(--radius-xs);
+  -moz-border-radius: var(--radius-xs);
+  -ms-border-radius: var(--radius-xs);
+  -o-border-radius: var(--radius-xs);
+}
+.pro{
+ transform: scale(1.1);
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -ms-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ border: 2px solid var(--clr-primary-dark);
+}
+.question-section{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.box-question{
+  padding: var(--space-2) var(--space-4);
+  background-color: var(--clr-border);
+  border-radius: var(--radius-sm);
+  -webkit-border-radius: var(--radius-sm);
+  -moz-border-radius: var(--radius-sm);
+  -ms-border-radius: var(--radius-sm);
+  -o-border-radius: var(--radius-sm);
+}
+.article-heading{
+  font-size: var(--fs-lg);
+  font-weight: var(--fw-bold);
+}
